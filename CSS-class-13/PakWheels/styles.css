@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(6, 6, 46);
+  align-items: center;
+  /* width: full; */
+  height: 80px;
+  gap: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+span {
+  color: white;
+}
+div.items{
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 18px;
+}
+button{
+    background-color: rgb(172, 35, 35);
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid red;
+}
