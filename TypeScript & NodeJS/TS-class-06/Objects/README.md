@@ -1,4 +1,4 @@
-##OBJECTS##
+## OBJECTS
 Objects in JavaScript and TypeScript
 
 - Objects are fundamental building blocks in both JavaScript and TypeScript. They represent collections of key-value pairs, where the keys are property names and the values can be any type data.
