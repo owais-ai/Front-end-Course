@@ -9,7 +9,7 @@ A Version Control System (VCS) is a tool that helps developers manage changes to
 ### Types of VCS
 1. **Local VCS**: Keeps versions on the local machine. Example: RCS (Revision Control System).
 2. **Centralized VCS (CVCS)**: Maintains all versions in a central server. Examples: CVS, Subversion (SVN).
-3. **Distributed VCS (DVCS)**: Each user has a complete copy of the repository, including its history. Examples: Git, Mercurial.
+3. **Distributed VCS (DVCS)**: Each user has a complete copy of the repository, including its history both in Local and Central server. Examples: Git, Mercurial.
 
 ### Benefits of VCS
 - **Collaboration**: Multiple people can work on the same project simultaneously.
@@ -34,7 +34,7 @@ A Version Control System (VCS) is a tool that helps developers manage changes to
 ## What is GitHub?
 
 ### GitHub Overview
-GitHub is a web-based platform for version control and collaboration using Git. It provides a centralized place to store and manage your code repositories online.
+GitHub is a web-based platform that hosts Git repositories, enabling teams to collaborate on coding projects. It simplifies the use of Git and offers a user-friendly interface.
 
 ### Features of GitHub
 1. **Repository**: A storage space for your project's code and files.
