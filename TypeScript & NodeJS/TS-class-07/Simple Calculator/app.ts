@@ -27,5 +27,4 @@ if (question.operation == "Addition") {
   console.log(question.Number1 * question.Number2);
 }else if(question.operation === "Division"){
   console.log(question.Number1 / question.Number2);
-  
-}
+  }
