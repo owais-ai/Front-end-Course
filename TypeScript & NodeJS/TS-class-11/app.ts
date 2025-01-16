@@ -2,11 +2,11 @@ function hello(): any {
   console.log("Hello Pakistan!");
 }
 
-hello();
+hello()
 
 // A function with parameters
 
-function printName(name: string = "Khan"): void {
+function printName(name): void {
   console.log("Hello", name, "How are you today?");
   console.log(`Hi ${name}, how are you today?`);
 }
@@ -66,3 +66,30 @@ const subNum = (a:number, b:number):void => {
 }
 
 subNum(10,5);
+
+
+// self executing function
+
+(function():void{
+  console.log("Hello new students");
+  
+})();
+
+
+hello();
+
+// Callback functions
+
+function parentFunction(parameter):void{
+  console.log("This is parent function");
+  parameter();
+  }
+
+function childFunction():void{
+  console.log("This is child function");
+  }
+
+
+parentFunction(childFunction);
+
+

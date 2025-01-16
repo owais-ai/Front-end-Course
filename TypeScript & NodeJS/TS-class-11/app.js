@@ -4,7 +4,6 @@ function hello() {
 hello();
 // A function with parameters
 function printName(name) {
-    if (name === void 0) { name = "Khan"; }
     console.log("Hello", name, "How are you today?");
     console.log("Hi ".concat(name, ", how are you today?"));
 }
@@ -52,3 +51,17 @@ var subNum = function (a, b) {
     console.log(a - b);
 };
 subNum(10, 5);
+// self executing function
+(function () {
+    console.log("Hello new students");
+})();
+hello();
+// Callback functions
+function parentFunction(parameter) {
+    console.log("This is parent function");
+    parameter();
+}
+function childFunction() {
+    console.log("This is child function");
+}
+parentFunction(childFunction);
