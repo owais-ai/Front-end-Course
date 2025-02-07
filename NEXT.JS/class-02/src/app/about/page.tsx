@@ -7,6 +7,8 @@ const About = () => {
         <Header/>
         <p>This is About page</p>
             <Link href={"/"}>Home</Link>
+            <br />
+            <Link href={"/about/story"}>CLick here to visit story page</Link>
     </div>
     
   )
