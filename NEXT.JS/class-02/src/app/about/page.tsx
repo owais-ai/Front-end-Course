@@ -4,7 +4,7 @@ import Header from "../components/Header"
 const About = () => {
   return (
     <div>
-        <Header/>
+       
         <p>This is About page</p>
             <Link href={"/"}>Home</Link>
             <br />

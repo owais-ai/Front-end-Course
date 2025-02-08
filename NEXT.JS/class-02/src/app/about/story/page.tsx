@@ -9,6 +9,7 @@ const Story = () => {
         <br />
         <Link href={"/"}>Home</Link><br />
         <Link href={"./"}>Return to About page</Link>
+        
     </div>
   )
 }
