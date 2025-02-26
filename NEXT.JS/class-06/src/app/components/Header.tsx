@@ -25,7 +25,7 @@ const Header = () => {
                         <li>Used Cars</li>
                         <li>Bikes</li>
                         <li>Auto Store</li>
-                        <li>Blogs</li>
+                        <li>Blog</li>
                         <li>Forum</li>
                     </ul>
                 </nav>
