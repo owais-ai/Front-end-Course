@@ -101,3 +101,8 @@ export default function Home() {
     </div>
   );
 }
+
+// const getWatch = async ()=> {
+//   const watch = await client.fetch(`*[_type == "watch"]{title, color, price, image{asset->}}`);
+//   return watch;    
+// }

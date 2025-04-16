@@ -3,12 +3,13 @@ export default {
   name: "watch",
   type: "document",
   title: "Watch",
-  fields: [{
-    name: "title",
-    type: "string",
-    title: "Watch Title",
-  },
-  {
+  fields: [
+    {
+      name: "title",
+      type: "string",
+      title: "Watch Title",
+    },
+    {
       name: "price",
       type: "number",
       title: "Watch Price",
@@ -19,11 +20,9 @@ export default {
       title: "Watch Color",
     },
     {
-        name: "image",
-        type: "image",
-        title: "Watch Image",
-        
-    }
-    
+      name: "image",
+      type: "image",
+      title: "Watch Image",
+    },
   ],
 };
