@@ -4,6 +4,7 @@ const page = async ({params}:any) => {
   console.log("params is:", params)
   const req = await fetch(`https://fakestoreapi.com/products/${params.id}`);
   const product = await req.json(); 
+  
   // console.log(product)
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
